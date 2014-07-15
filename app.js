@@ -27,8 +27,6 @@ $(document).ready(function() {
         if (selectedValue == "2") {
             $(".photo1").html("<img src=" + ImageList.Tiger[0].Image + ">");
             $(".photo2").html("<img src=" + ImageList.Tiger[1].Image + ">");
-            $(".title1").html(ImageList.Tiger[0].Title);
-            $(".title2").html(ImageList.Tiger[1].Title);
             $(".option1").html(ImageList.Tiger[0].Title);
             $(".option2").html(ImageList.Tiger[1].Title);
         }
