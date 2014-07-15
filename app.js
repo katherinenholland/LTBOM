@@ -18,8 +18,6 @@ $(document).ready(function() {
         if (selectedValue == "1") {
             $(".photo1").html("<img src=" + ImageList.Lions[0].Image + ">");
             $(".photo2").html("<img src=" + ImageList.Lions[1].Image + ">");
-            $(".title1").html(ImageList.Lions[0].Title);
-            $(".title2").html(ImageList.Lions[1].Title);
             $(".option1").html(ImageList.Lions[0].Title);
             $(".option2").html(ImageList.Lions[1].Title);
         }
@@ -34,8 +32,6 @@ $(document).ready(function() {
         if (selectedValue == "3") {
             $(".photo1").html("<img src=" + ImageList.Bears[0].Image + ">");
             $(".photo2").html("<img src=" + ImageList.Bears[1].Image + ">");
-            $(".title1").html(ImageList.Bears[0].Title);
-            $(".title2").html(ImageList.Bears[1].Title);
             $(".option1").html(ImageList.Bears[0].Title);
             $(".option2").html(ImageList.Bears[1].Title);
         }
