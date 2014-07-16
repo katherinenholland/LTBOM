@@ -1,11 +1,11 @@
 $(document).ready(function() {
-    // populate the select
+    // creat select from external data
     $.each(ImageList, function (key) {
         //alert(key);
         $(".selectId").append("<option>" + key + "</option>");
     });
 
-    // populate the li buttons
+    // li buttons
     $.each(ImageList[$(".selectId").val()], function(keyItem) {
         $(".indexList").append("<li value='" + keyItem + "'>" + ImageList[$(".selectId").val()][keyItem].Title + "</li>"); 
     });
@@ -17,7 +17,6 @@ $(document).ready(function() {
         $(".title").html("<h3>" + ImageList[$(".selectId").val()][$(this).val()].Title + "</h3>");
     });
 
-    
     // select element onChange
     $(".selectId").change(function() {
         //alert($(".selectId").val());
