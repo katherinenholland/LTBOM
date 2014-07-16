@@ -2,6 +2,7 @@ body{
 	color: #eee;
 	overflow: hidden;
 	font-family: helvetica, sans-serif;
+	cursor: default;
 }
 
 h2 {
@@ -21,27 +22,6 @@ select {
 	background-color: #eee;
 }
 
-#wrap {
-	width: 1420px;
-	margin-left: 0;
-}
-
-.photoIndex {
-	background-color: #555;
-	height: 728px;
-	width: 350px;
-	float: left;	
-}
-
-.title {
-	background-color: #666;
-	height: 48px;
-	width: 1070px;
-	float: right;
-	border-bottom: solid 1px #eee;
-	
-}
-
 h3 {
 	padding-left: 5%;
 	padding-bottom: 2%;
@@ -53,13 +33,6 @@ h4 {
 	padding-top: 5%;
 }
 
-.selectedPhoto {
-	background-color: #666;
-	height: 680px;
-	width: 1070px;
-	float: right;
-}
-
 img {
 	height: 580px;
 	width: 960px;
@@ -67,21 +40,50 @@ img {
 	padding-top: 60px;
 }
 
-.photo2, 
-.title2 {
-	display: none;
-}
-
-.button1, 
-.button2 {
-	width: 350px;
-	height: 60px;
-	background-color: #555;
-	color: white;
-	border-bottom: solid 1px #eee;
+ul {
+	padding-left: 0;
+	margin-top: 0;
 }
 
 li {
 	list-style-type: none;
-	padding-left: 0;
+	background-color: #555;
+	height: 60px;
+	padding: 2%;
+	color: white;
+	border-bottom: solid 1px #eee;
 }
+
+li.selected {
+	background-color: #666;
+}
+
+#wrap {
+	width: 1420px;
+	margin-left: 0;
+}
+
+.title {
+	background-color: #666;
+	height: 48px;
+	width: 1070px;
+	float: right;
+	border-bottom: solid 1px #eee;	
+}
+
+.selectedPhoto {
+	background-color: #666;
+	height: 679px;
+	width: 1070px;
+	float: right;
+}
+
+.indexList, .List {
+	background-color: #555;
+	height: 728px;
+	width: 350px;
+	float: left;	
+}
+
+
+
